@@ -7,23 +7,72 @@
 
 import UIKit
 
-class QuestionsViewController: UIViewController {
 
+
+
+
+final class QuestionsViewController: UIViewController {
+
+// MARK: - 1. IBOutlets
+
+    @IBOutlet var questionProgressView: UIProgressView!
+    @IBOutlet var questionLabel: UILabel!
+    
+    @IBOutlet var singleStackView: UIStackView!
+    @IBOutlet var singleButtons: [UIButton]!
+    
+    @IBOutlet var multipleStackView: UIStackView!
+    @IBOutlet var multipleLabels: [UILabel]!
+    @IBOutlet var multipleSwitches: [UISwitch]!
+    
+    @IBOutlet var rangedStackView: UIStackView!
+    @IBOutlet var rangedLabels: [UILabel]!
+    @IBOutlet var rangedSlider: UISlider! {
+        didSet{
+            
+            
+            
+        }
+    }
+    
+// MARK: - 2. Public propirties
+
+// MARK: - 3. Private propirties
+
+    private let question = Question.getQuestions()
+    
+// MARK: - 4. Overridet getters
+
+
+// MARK: - 5. Initializers
+    
+    
+// MARK: - 6. Class ovveride metods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+// MARK: - 7. IBActions
+    
+    
+    @IBAction func singleAnswerButtonsPressed(_ sender: UIButton) {
+        
     }
-    */
+    
+    @IBAction func multipleAnswerButtonPressed() {
+        
+    }
+    
+    @IBAction func rangedAnswerButtonPressed() {
+        
+    }
+    
+    
+// MARK: - 8. Public methods
+    
 
+// MARK: - 9. Private methods
 }
