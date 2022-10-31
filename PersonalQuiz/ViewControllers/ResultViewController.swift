@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ResultViewController: UIViewController {
+class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,11 @@ final class ResultViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
+        dismiss(animated: true)
+        //view .window?.rootViewController?.dismiss(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

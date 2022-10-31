@@ -41,16 +41,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-ek-M6s">
-                                <rect key="frame" x="56" y="287.5" width="263" height="92"/>
+                                <rect key="frame" x="64" y="287.5" width="247" height="92"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Какое вы живтоное" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nda-mE-sk0">
-                                        <rect key="frame" x="0.0" y="0.0" width="263" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Какое вы живтное" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nda-mE-sk0">
+                                        <rect key="frame" x="0.0" y="0.0" width="247" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1b-fy-j2s">
-                                        <rect key="frame" x="68.5" y="56" width="126" height="36"/>
+                                        <rect key="frame" x="60.5" y="56" width="126" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Начать опрос"/>
@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-631" y="5"/>
+            <point key="canvasLocation" x="-514" y="5"/>
         </scene>
         <!--Вопрос №-->
         <scene sceneID="BL8-Ko-dR9">
@@ -145,7 +145,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rI2-YL-Fp9">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rI2-YL-Fp9">
                                                 <rect key="frame" x="286" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
@@ -159,7 +159,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3pD-9a-KiF">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3pD-9a-KiF">
                                                 <rect key="frame" x="286" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
@@ -173,7 +173,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbs-w8-jb1">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dbs-w8-jb1">
                                                 <rect key="frame" x="286" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
@@ -187,7 +187,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lb7-sN-vwM">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lb7-sN-vwM">
                                                 <rect key="frame" x="286" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
@@ -260,12 +260,6 @@
                             <constraint firstItem="DUH-GV-9Wp" firstAttribute="leading" secondItem="IWg-sy-foG" secondAttribute="leading" id="uTK-Li-qBc"/>
                             <constraint firstItem="IWg-sy-foG" firstAttribute="trailing" secondItem="a05-qX-OZv" secondAttribute="trailing" constant="20" id="xvO-fY-1wU"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="8TW-5Z-rnt"/>
-                                <exclude reference="a05-qX-OZv"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="H1d-lG-vxJ"/>
                     <connections>
@@ -288,17 +282,18 @@
                         <outletCollection property="multipleSwitches" destination="dbs-w8-jb1" collectionClass="NSMutableArray" id="9md-Nn-ND6"/>
                         <outletCollection property="multipleSwitches" destination="Lb7-sN-vwM" collectionClass="NSMutableArray" id="A9r-d0-uSy"/>
                         <outletCollection property="rangedLabels" destination="azP-HH-Odi" collectionClass="NSMutableArray" id="Cla-KQ-b4D"/>
+                        <outletCollection property="rangedLabels" destination="nLF-gG-UPl" collectionClass="NSMutableArray" id="Wl5-AB-xwc"/>
                         <segue destination="jSh-LL-Kc2" kind="show" identifier="showResult" id="rDR-kJ-yOg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0C-gS-6HW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="906" y="5"/>
+            <point key="canvasLocation" x="879" y="5"/>
         </scene>
         <!--Результаты-->
         <scene sceneID="5Te-GZ-ryj">
             <objects>
-                <viewController id="jSh-LL-Kc2" sceneMemberID="viewController">
+                <viewController id="jSh-LL-Kc2" customClass="ResultViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q5C-qK-Azl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,12 +325,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Результаты" customizationIdentifier="showResult" id="jJ0-q9-Wk7">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="K1s-R0-UnT"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="K1s-R0-UnT">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="jSh-LL-Kc2" id="Now-8N-DvF"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tAE-hq-wkj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1650" y="5"/>
+            <point key="canvasLocation" x="1577" y="5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FcT-hf-eww">
