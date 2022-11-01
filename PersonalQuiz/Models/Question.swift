@@ -37,7 +37,7 @@ enum AnimalType: Character {
         case .cat:
             return "Вы себе на уме. Любите гулять сами по себе. Вы цените одиночество"
         case .rabbit:
-            return "Вам нарвится все мягкое. Вы здоровы и полны энерги"
+            return "Вам нарвится все мягкое. Вы здоровы и полны энергии"
         case .turtle:
             return "Ваша сила - в мудрости. Медленный и вдумчивый выигрывает на больших дистанциях"
         }
@@ -48,7 +48,7 @@ extension Question {
     static func getQuestions() -> [Question] {
         [
         Question(
-            title: "Какую пищу вы предпочитаете?",
+            title: "Какую пищу предпочитаете?",
             type: .single,
             answers: [
                 Answer(title: "Стейк", type: .dog),

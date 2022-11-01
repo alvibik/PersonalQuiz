@@ -33,8 +33,6 @@ final class QuestionsViewController: UIViewController {
         }
     }
     
-    // MARK: - 2. Public propirties
-    
     // MARK: - 3. Private propirties
     
     private let questions = Question.getQuestions()
@@ -44,17 +42,16 @@ final class QuestionsViewController: UIViewController {
         questions[questionIndex].answers
     }
     
-    // MARK: - 4. Overridet getters
-    
-    
-    // MARK: - 5. Initializers
-    
-    
     // MARK: - 6. Class ovveride metods
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let resultVC = segue.destination as? ResultViewController else { return }
+        resultVC.answers = answerChosen
         
     }
     
@@ -64,7 +61,7 @@ final class QuestionsViewController: UIViewController {
         guard let currentIndex = singleButtons.firstIndex(of: sender) else { return }
         let currentAnswer = currentAnswers[currentIndex]
         answerChosen.append(currentAnswer)
-        
+        print (answerChosen)
         nextQuestion()
     }
     
@@ -74,25 +71,16 @@ final class QuestionsViewController: UIViewController {
                 answerChosen.append(answer)
             }
         }
-        
+        print (answerChosen)
         nextQuestion()
-        
     }
     
     @IBAction func rangedAnswerButtonPressed() {
         let index = lrintf(rangedSlider.value)
         answerChosen.append(currentAnswers[index])
-        
+        print (answerChosen)
         nextQuestion()
-        
     }
-    
-    
-    // MARK: - 8. Public methods
-    
-    
-    // MARK: - 9. Private methods
-    
 }
 // MARK: - 10. Extenssion User Interface
 
@@ -152,7 +140,7 @@ extension QuestionsViewController {
             updateUI()
             return
         }
-        
+        print (answerChosen)
         performSegue(withIdentifier: "showResult", sender: nil)
     }
 }
